@@ -31,7 +31,9 @@ body {
 .logo {
   height: 10rem;
 }
-
+.company-moto {
+  margin-right: 23rem;
+}
 /****************************/
 /* NAVIGATION */
 /****************************/
