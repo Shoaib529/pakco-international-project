@@ -18,6 +18,7 @@ body {
 }
 
 .header {
+  background-color: lavenderblush;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -267,6 +268,11 @@ body {
 /****************************/
 /* Testimonals SECTION*/
 /****************************/
+.Reviews-heading {
+  color: #333;
+  font-size: 4.4rem;
+  margin-bottom: 2rem;
+}
 
 .section-testimonials {
   background-color: #fae5d3;
@@ -293,8 +299,8 @@ body {
 }
 
 .testimonial-text {
-  font-size: 1.8rem;
-  line-height: 1.8;
+  font-size: 1.5rem;
+  line-height: 1.4;
   margin-bottom: 1.6rem;
 }
 
