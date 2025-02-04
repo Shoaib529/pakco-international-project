@@ -298,7 +298,6 @@ body {
 .section-testimonials {
   background-color: #fae5d3;
   display: grid;
-  grid-template-columns: 55fr 45fr;
   align-items: center;
 }
 
@@ -328,6 +327,13 @@ body {
 .testimonial-name {
   font-size: 1.6rem;
   color: #777;
+}
+
+.gallery-name {
+  font-size: 4.4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
 }
 
 .gallery {
