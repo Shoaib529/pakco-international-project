@@ -266,6 +266,27 @@ body {
 }
 
 /****************************/
+/* ABOUT SECTION */
+/****************************/
+.heading-about {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+  margin-top: 3rem;
+}
+
+.About-description {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.about-img {
+  width: 400px;
+  padding-top: 5rem;
+  border-radius: 10%;
+}
+/****************************/
 /* Testimonals SECTION*/
 /****************************/
 .Reviews-heading {
