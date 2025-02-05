@@ -286,6 +286,22 @@ body {
   padding-top: 5rem;
   border-radius: 10%;
 }
+
+/****************************/
+/* Video SECTION*/
+/****************************/
+.video-section {
+  background-color: #333;
+}
+
+.video-text {
+  text-align: center;
+  color: #ddd;
+  font-size: 5.2rem;
+  margin-bottom: 3.2rem;
+  margin-top: 6rem;
+  padding-top: 2rem;
+}
 /****************************/
 /* Testimonals SECTION*/
 /****************************/
