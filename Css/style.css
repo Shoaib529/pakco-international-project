@@ -292,6 +292,7 @@ body {
 /****************************/
 .video-section {
   background-color: #333;
+  padding-bottom: 3rem;
 }
 
 .video-text {
@@ -301,6 +302,41 @@ body {
   margin-bottom: 3.2rem;
   margin-top: 6rem;
   padding-top: 2rem;
+}
+
+/****************************/
+/* Certificates SECTION*/
+/****************************/
+.section-certificates {
+  background-color: #fae5d3;
+}
+.Certificates-text-center {
+  font-size: 4.4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  background-color: #45260a;
+  color: #ddd;
+}
+
+.certificates {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.certificates-img {
+  overflow: hidden;
+}
+
+.certificates-img img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+.certificates-img img:hover {
+  transform: scale(1.1);
 }
 /****************************/
 /* Testimonals SECTION*/
