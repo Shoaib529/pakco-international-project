@@ -283,7 +283,7 @@ body {
 
 .about-img {
   width: 400px;
-  padding-top: 5rem;
+  margin-top: 5rem;
   border-radius: 10%;
 }
 
@@ -338,7 +338,7 @@ body {
   transform: scale(1.1);
 }
 /****************************/
-/* Testimonals SECTION*/
+/* Reviews SECTION*/
 /****************************/
 .Reviews-heading {
   color: #333;
@@ -380,33 +380,22 @@ body {
   color: #777;
 }
 
-.gallery-name {
-  font-size: 4.4rem;
+/**************************/
+/* CEO SECTION */
+/**************************/
+.ceo-section {
+  background-color: #fae5d3;
+}
+.ceo-text {
   text-align: center;
-  margin-bottom: 2rem;
-  text-transform: uppercase;
+  font-size: 5rem;
 }
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.6rem;
-  padding: 1.6rem;
+.ceo-name {
+  font-size: 3rem;
 }
-
-.gallery-item {
-  overflow: hidden;
-}
-
-.gallery-item img {
-  display: block;
+.ceo-img {
   width: 100%;
-  transition: all 0.4s;
 }
-.gallery-item img:hover {
-  transform: scale(1.1);
-}
-
 /**************************/
 /* CTA SECTION */
 /**************************/
@@ -525,12 +514,12 @@ body {
 /**************************/
 
 .footer {
-  padding: 12.8rem 0;
+  padding: 2rem 0;
   border-top: 1px solid #eee;
 }
 
 .grid--footer {
-  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .logo-col {
@@ -565,9 +554,10 @@ body {
 }
 
 .footer-heading {
-  font-size: 1.8rem;
+  font-size: 5rem;
   font-weight: 500;
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .contacts {
