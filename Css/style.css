@@ -18,9 +18,7 @@ body {
 }
 
 .header {
-  background-color: lavenderblush;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: #fdf2e9;
 
@@ -30,7 +28,7 @@ body {
 }
 
 .logo {
-  height: 10rem;
+  height: 20rem;
 }
 .company-moto {
   margin-right: rem;
@@ -40,6 +38,7 @@ body {
 /****************************/
 
 .main-nav-list {
+  padding-left: 30rem;
   list-style: none;
   display: flex;
   align-items: center;
