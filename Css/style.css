@@ -278,12 +278,13 @@ body {
 .About-description {
   font-size: 2rem;
   line-height: 1.2;
+  text-align: justify;
   margin-bottom: 9.6rem;
 }
 
 .about-img {
-  width: 400px;
-  margin-top: 5rem;
+  width: 100%;
+  margin-top: 15rem;
   border-radius: 10%;
 }
 
@@ -388,9 +389,12 @@ body {
 }
 .ceo-text {
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
+  font-weight: bold;
 }
 .ceo-name {
+  padding-top: 5rem;
+  padding-left: 3rem;
   font-size: 3rem;
 }
 .ceo-img {
