@@ -28,17 +28,18 @@ body {
 }
 
 .logo {
-  height: 20rem;
+  height: 10rem;
 }
-.company-moto {
-  margin-right: rem;
+.logos-headers {
+  width: 15rem;
 }
+
 /****************************/
 /* NAVIGATION */
 /****************************/
 
 .main-nav-list {
-  padding-left: 30rem;
+  padding-left: 35rem;
   list-style: none;
   display: flex;
   align-items: center;
@@ -597,6 +598,10 @@ body {
   /* outline: 4px dotted #e67e22; */
   /* outline-offset: 8px; */
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+.logos {
+  width: 14rem;
 }
 
 /* HELPER/SETTINGS CLASSES */
