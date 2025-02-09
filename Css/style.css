@@ -387,18 +387,15 @@ body {
 .ceo-section {
   background-color: #fae5d3;
 }
-.ceo-text {
+.ceo-text-name {
   text-align: center;
   font-size: 3rem;
-  font-weight: bold;
+  line-height: 6rem;
 }
-.ceo-name {
-  padding-top: 5rem;
-  padding-left: 3rem;
-  font-size: 3rem;
-}
+
 .ceo-img {
-  width: 100%;
+  width: 70%;
+  margin-left: 20rem;
 }
 /**************************/
 /* CTA SECTION */
@@ -552,7 +549,7 @@ body {
 
 .copyright {
   font-size: 1.4rem;
-  line-height: 1.6;
+  line-height: 4.5;
   color: #767676;
   margin-top: auto;
 }
@@ -567,7 +564,7 @@ body {
 .contacts {
   font-style: normal;
   font-size: 1.6rem;
-  line-height: 1.6;
+  line-height: 5rem;
 }
 
 .address {
