@@ -19,7 +19,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #fdf2e9;
   height: 9.6rem;
@@ -27,7 +27,6 @@ body {
   position: relative;
 }
 .company-moto-name {
-  margin-left: -5rem;
 }
 
 .logo {
@@ -42,8 +41,8 @@ body {
 /****************************/
 
 .main-nav-list {
-  padding-left: 35rem;
   list-style: none;
+  justify-content: space-between;
   display: flex;
   align-items: center;
   gap: 3.2rem;
