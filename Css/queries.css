@@ -244,9 +244,23 @@
   .hero {
     padding: 0 3.2rem;
   }
+  .about-img-box {
+    margin-top: -27rem;
+    margin-bottom: 2rem;
+  }
 
   .hero-img {
     width: 80%;
+  }
+
+  .vid {
+    width: 100%;
+  }
+
+  .ceo-img {
+    width: 80%;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
   }
 
   .logos img {
