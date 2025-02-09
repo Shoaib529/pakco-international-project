@@ -1,6 +1,6 @@
 console.log("Hello world!");
 
-const myName = "Jonas Schmedtmann";
+const myName = "shoaib Umar";
 const h1 = document.querySelector(".heading-primary");
 console.log(myName);
 console.log(h1);
@@ -15,7 +15,7 @@ console.log(h1);
 // Set current year
 const yearEl = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
-yearEl.textContent = currentYear;
+yearEl.textContent = 2028;
 
 ///////////////////////////////////////////////////////////
 // Make mobile navigation work

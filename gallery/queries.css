@@ -1,0 +1,10 @@
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .gallery {
+    display: contents;
+    padding: 1.6rem;
+  }
+}
