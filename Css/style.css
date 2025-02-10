@@ -26,8 +26,6 @@ body {
   padding: 0 4.8rem;
   position: relative;
 }
-.company-moto-name {
-}
 
 .logo {
   height: 10rem;
@@ -102,7 +100,7 @@ body {
 /****************************/
 
 .section-hero {
-  background-image: url("../img/background\ image.jpg");
+  background-image: url("../img/background\ -image.jpg");
   background-size: cover;
   padding: 4.8rem 0 9.6rem 0;
 }
@@ -127,7 +125,7 @@ body {
 .heading-secondary,
 .heading-tertiary {
   font-weight: 700;
-  color: #ddd;
+  color: #eee3e3;
   letter-spacing: -0.5px;
 }
 
@@ -398,6 +396,7 @@ body {
 .ceo-img {
   width: 70%;
   margin-left: 20rem;
+  margin-bottom: 3rem;
 }
 /**************************/
 /* CTA SECTION */

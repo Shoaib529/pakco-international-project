@@ -221,9 +221,6 @@
 /**************************/
 
 @media (max-width: 34em) {
-  .section-hero {
-  }
-
   .grid {
     row-gap: 4.8rem;
   }
@@ -256,13 +253,17 @@
     width: 80%;
   }
 
+  .section-hero {
+    background-image: url("../img/phone\ background\ image.jpg");
+  }
+
   .vid {
     width: 100%;
   }
 
   .ceo-img {
     width: 80%;
-    margin-left: 6rem;
+    margin-left: 4rem;
     margin-bottom: 2rem;
   }
 
