@@ -11,6 +11,10 @@
     font-size: 4.4rem;
   }
 
+  .company-moto-name {
+    margin-right: 40rem;
+  }
+
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -32,6 +36,10 @@
 
   .heading-secondary {
     font-size: 3.6rem;
+  }
+
+  .company-moto-name {
+    margin-right: -40rem;
   }
 
   .heading-tertiary {
