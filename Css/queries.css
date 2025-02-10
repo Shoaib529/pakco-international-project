@@ -39,7 +39,7 @@
   }
 
   .company-moto-name {
-    margin-right: -40rem;
+    margin-right: 15rem;
   }
 
   .heading-tertiary {
@@ -253,6 +253,10 @@
     font-weight: 700;
     color: #fff;
     letter-spacing: -0.5px;
+  }
+
+  .company-moto-name {
+    margin-right: 0rem;
   }
 
   .hero {
