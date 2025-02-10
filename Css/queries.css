@@ -241,6 +241,12 @@
     padding: 2.4rem 0 6.4rem 0;
   }
 
+  .heading-primary {
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.5px;
+  }
+
   .hero {
     padding: 0 3.2rem;
   }
