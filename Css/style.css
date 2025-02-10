@@ -223,13 +223,14 @@ body {
 
 .delivered-text {
   font-size: 1.8rem;
+  color: #fff;
   font-weight: 600;
   padding-left: 3rem;
   padding-top: 1.8rem;
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: slategray;
   font-weight: 700;
 }
 
