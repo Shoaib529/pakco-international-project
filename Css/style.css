@@ -537,6 +537,7 @@ h2 {
 }
 
 .footer-logo {
+  text-decoration: none;
   display: block;
   margin-bottom: 3.2rem;
 }
