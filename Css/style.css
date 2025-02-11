@@ -392,7 +392,9 @@ body {
 .ceo-section {
   background-color: #fae5d3;
 }
-.ceo-text-name {
+.ceo-text-name h1,
+h2 {
+  font-family: monospace;
   text-align: center;
   font-size: 3rem;
   line-height: 6rem;
