@@ -281,9 +281,9 @@ body {
 }
 
 .About-description {
-  font-size: 2rem;
-  line-height: 1.2;
-  text-align: justify;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
   margin-bottom: 9.6rem;
 }
 
@@ -297,7 +297,7 @@ body {
 /* Video SECTION*/
 /****************************/
 .video-section {
-  background-color: rgb(43, 38, 38);
+  background-color: #333;
   padding-bottom: 3rem;
 }
 
@@ -566,6 +566,13 @@ h2 {
 /* FOOTER */
 /**************************/
 
+footer {
+  background-color: #333;
+}
+.footer-heading {
+  color: #ddd;
+}
+
 .footer {
   padding: 2rem 0;
   border-top: 1px solid #eee;
@@ -586,7 +593,7 @@ h2 {
   margin-bottom: 3.2rem;
 }
 .company-moto-footer {
-  color: #333;
+  color: #ffffff;
 }
 
 .social-links {
@@ -596,14 +603,15 @@ h2 {
 }
 
 .social-icon {
-  height: 2.4rem;
-  width: 2.4rem;
+  color: #ddd;
+  height: 4rem;
+  width: 4rem;
 }
 
 .copyright {
   font-size: 1.4rem;
   line-height: 4.5;
-  color: #767676;
+  color: #eee;
   margin-top: auto;
 }
 
@@ -635,7 +643,7 @@ h2 {
 .footer-link:visited {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #767676;
+  color: #eee;
   transition: all 0.3s;
 }
 
