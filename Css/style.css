@@ -282,7 +282,8 @@ body {
 
 .About-description {
   font-size: 20px;
-  text-align: center;
+  word-spacing: 2px;
+  text-align: justify;
   line-height: 25px;
   margin-bottom: 9.6rem;
 }
