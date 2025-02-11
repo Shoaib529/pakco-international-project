@@ -7,6 +7,25 @@ btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
 });
 
+let currentIndex = 0;
+
+function moveSlide(direction) {
+  const slides = document.querySelectorAll(".slide");
+  const totalSlides = slides.length;
+
+  currentIndex += direction;
+
+  if (currentIndex < 0) {
+    currentIndex = totalSlides - 1;
+  } else if (currentIndex >= totalSlides) {
+    currentIndex = 0;
+  }
+
+  const slider = document.querySelector(".slider");
+  const slideWidth = slides[0].clientWidth;
+  slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+}
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {

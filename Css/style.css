@@ -297,7 +297,7 @@ body {
 /* Video SECTION*/
 /****************************/
 .video-section {
-  background-color: #333;
+  background-color: black;
   padding-bottom: 3rem;
 }
 
@@ -323,26 +323,69 @@ body {
   background-color: #45260a;
   color: #ddd;
 }
-
-.certificates {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.6rem;
-  padding: 1.6rem;
-}
-
-.certificates-img {
+.slider-container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
   overflow: hidden;
 }
 
-.certificates-img img {
-  display: block;
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 33.333%;
+  padding: 5px;
+}
+
+.slide img {
   width: 100%;
-  transition: all 0.4s;
+  height: auto;
+  display: block;
+  border-radius: 10px;
 }
-.certificates-img img:hover {
-  transform: scale(1.1);
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 5px;
 }
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .slide {
+    flex: 0 0 50%; /* Show 2 images at a time */
+  }
+}
+
+@media (max-width: 480px) {
+  .slide {
+    flex: 0 0 100%; /* Show 1 image at a time */
+  }
+}
+
 /****************************/
 /* Reviews SECTION*/
 /****************************/
