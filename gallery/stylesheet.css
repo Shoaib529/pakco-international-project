@@ -3,10 +3,11 @@ body {
 }
 
 .gallery-name {
+  text-decoration: underline;
+  text-decoration-style: double;
   font-size: 4.4rem;
   text-align: center;
   margin-bottom: 2rem;
-  text-transform: uppercase;
 }
 
 .gallery {
