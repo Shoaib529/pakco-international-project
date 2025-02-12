@@ -435,10 +435,11 @@ button:hover {
 /* CEO SECTION */
 /**************************/
 .ceo-section {
-  background-color: #fae5d3;
+  background-color: #111;
 }
 .ceo-text-name h1,
 h2 {
+  color: #ddd;
   font-family: monospace;
   text-align: center;
   font-size: 3rem;
