@@ -283,7 +283,7 @@ body {
 .About-description {
   font-size: 20px;
   word-spacing: 2px;
-  text-align: justify;
+  text-align: center;
   line-height: 25px;
   margin-bottom: 9.6rem;
 }
@@ -567,91 +567,38 @@ h2 {
 /* FOOTER */
 /**************************/
 
-footer {
-  background-color: #333;
-}
-.footer-heading {
-  color: #ddd;
-}
-
 .footer {
-  padding: 2rem 0;
-  border-top: 1px solid #eee;
-}
-
-.grid--footer {
-  grid-template-columns: 1fr 1fr;
-}
-
-.logo-col {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-logo {
-  text-decoration: none;
-  display: block;
-  margin-bottom: 3.2rem;
-}
-.company-moto-footer {
-  color: #ffffff;
-}
-
-.social-links {
-  list-style: none;
-  display: flex;
-  gap: 2.4rem;
-}
-
-.social-icon {
-  color: #ddd;
-  height: 4rem;
-  width: 4rem;
-}
-
-.copyright {
-  font-size: 1.4rem;
-  line-height: 4.5;
-  color: #eee;
-  margin-top: auto;
-}
-
-.footer-heading {
-  font-size: 5rem;
-  font-weight: 500;
-  margin-bottom: 4rem;
+  background-color: #111;
   text-align: center;
+  padding: 20px;
 }
-
-.contacts {
-  font-style: normal;
-  font-size: 1.6rem;
-  line-height: 5rem;
+.footer h1 {
+  font-family: "Georgia", serif;
+  font-size: 24px;
 }
-
-.address {
-  margin-bottom: 2.4rem;
+.copyright {
+  font-size: 2px;
 }
-
-.footer-nav {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 2.4rem;
+.footer p {
+  margin: 10px 0;
+  font-size: 2rem;
+  color: #ddd;
 }
-
-.footer-link:link,
-.footer-link:visited {
+.footer a {
+  color: white;
   text-decoration: none;
-  font-size: 1.6rem;
-  color: #eee;
-  transition: all 0.3s;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.icons {
+  margin-top: 10px;
+}
+.icons a {
+  margin: 0 10px;
+  font-size: 30px;
 }
 
-.footer-link:hover,
-.footer-link:active {
-  color: #555;
-}
 *:focus {
   outline: none;
   /* outline: 4px dotted #e67e22; */
