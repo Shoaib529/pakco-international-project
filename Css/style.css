@@ -574,12 +574,12 @@ h2 {
   padding: 20px;
 }
 .footer h1 {
+  color: #ddd;
   font-family: "Georgia", serif;
-  font-size: 24px;
+  font-size: 6rem;
+  padding-bottom: 2rem;
 }
-.copyright {
-  font-size: 2px;
-}
+
 .footer p {
   margin: 10px 0;
   font-size: 2rem;
@@ -592,12 +592,18 @@ h2 {
 .footer a:hover {
   text-decoration: underline;
 }
+.copyright-text {
+  color: aliceblue;
+  padding-top: 2rem;
+  font-size: 12px;
+}
+
 .icons {
   margin-top: 10px;
 }
 .icons a {
-  margin: 0 10px;
-  font-size: 30px;
+  margin: 0 12px;
+  font-size: 50px;
 }
 
 *:focus {
