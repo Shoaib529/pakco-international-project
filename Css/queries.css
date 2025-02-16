@@ -274,8 +274,6 @@
 
   .section-hero {
     background-image: url(../img/background-pone.jpeg);
-    background-attachment: fixed;
-    background-size: cover;
   }
 
   .vid {
