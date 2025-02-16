@@ -275,6 +275,7 @@
   .section-hero {
     background-image: url(../img/background-pone.jpeg);
     background-position: center;
+    background-attachment: scroll;
   }
 
   .vid {
