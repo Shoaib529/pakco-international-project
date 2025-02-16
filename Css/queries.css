@@ -273,7 +273,10 @@
   }
 
   .section-hero {
-    background-image: url(../img/phone-background.jpeg);
+    background-image: url(../img/phone-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 
   .vid {
