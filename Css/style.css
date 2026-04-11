@@ -28,11 +28,11 @@ body {
 }
 
 .company-moto-name {
-  margin-right: 40rem;
+  margin-right: 35rem;
 }
 
 .logo {
-  height: 10rem;
+  height: 9rem;
 }
 .logos-headers {
   width: 15rem;
@@ -47,7 +47,7 @@ body {
   justify-content: space-between;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 3rem;
 }
 
 .main-nav-link:link,
@@ -62,7 +62,7 @@ body {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-  color: #cf711f;
+  color: #a80d13;
 }
 
 .main-nav-link.nav-cta:link,
@@ -433,26 +433,6 @@ button:hover {
 }
 
 /**************************/
-/* CEO SECTION */
-/**************************/
-.ceo-section {
-  background-color: #111;
-}
-.ceo-text-name h1,
-h2 {
-  color: #ddd;
-  font-family: monospace;
-  text-align: center;
-  font-size: 3rem;
-  line-height: 6rem;
-}
-
-.ceo-img {
-  width: 70%;
-  margin-left: 20rem;
-  margin-bottom: 3rem;
-}
-/**************************/
 /* CTA SECTION */
 /**************************/
 
@@ -493,7 +473,8 @@ h2 {
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       to right bottom,
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
