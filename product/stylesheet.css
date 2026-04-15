@@ -5,6 +5,87 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.company-moto-name {
+  margin-right: 35rem;
+}
+
+.logo {
+  height: 9rem;
+}
+.logos-headers {
+  width: 15rem;
+}
+
+/****************************/
+/* NAVIGATION */
+/****************************/
+
+.main-nav-list {
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #a80d13;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #767676;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #aaa;
+}
+
+/****************************/
+/* MOBLIE */
+/****************************/
+.btn-mobile-nav {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
 
 body {
   background-color: #f4f7f6;
@@ -18,38 +99,6 @@ body {
   padding: 0 20px;
 }
 
-/* Header & Nav */
-header {
-  background: #004d40;
-  color: #fff;
-  padding: 1rem 0;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-}
-
-nav ul li {
-  margin-left: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav ul li a.active {
-  border-bottom: 2px solid #fff;
-}
-
 /* Main Content */
 .intro {
   text-align: center;
@@ -59,7 +108,7 @@ nav ul li a.active {
 .intro h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
-  color: #004d40;
+  color: #a80d13;
 }
 
 /* Grid Layout */
@@ -75,12 +124,12 @@ nav ul li a.active {
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-top: 5px solid #004d40;
+  border-top: 5px solid #a80d13;
 }
 
 .quality-card h3 {
   margin-bottom: 10px;
-  color: #004d40;
+  color: #a80d13;
 }
 
 .quality-card span {
@@ -117,7 +166,7 @@ td {
 }
 
 th {
-  background-color: #004d40;
+  background-color: #a80d13;
   color: white;
 }
 

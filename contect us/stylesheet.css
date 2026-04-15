@@ -1,0 +1,132 @@
+/* Core Layout Structure */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica", Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Exact Top Bar Layout */
+.top-bar {
+  background-color: #000000; /* Black */
+  color: #ffffff;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.top-right a {
+  color: #ffffff;
+  margin-left: 15px;
+  transition: color 0.3s;
+}
+
+.top-right a:hover {
+  color: #ff0000; /* Red */
+}
+
+/* Page Title Section */
+.page-title-section {
+  padding: 60px 0;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.page-title-section h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.brand-name {
+  color: #ff0000; /* Red */
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin-top: 5px;
+}
+
+/* Contact Grid Layout */
+.contact-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+  padding: 60px 0;
+}
+
+/* Form Styles */
+.contact-form-side input,
+.contact-form-side textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background: #fdfdfd;
+}
+
+.contact-form-side button {
+  background-color: #ff0000; /* Red */
+  color: #fff;
+  padding: 15px 40px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.contact-form-side button:hover {
+  background-color: #000000; /* Black on Hover */
+}
+
+/* Details Styles */
+.detail-box {
+  margin-bottom: 30px;
+}
+
+.detail-box h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  border-left: 4px solid #ff0000; /* Red Accent */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.detail-box p {
+  color: #555;
+  padding-left: 14px;
+}
+
+/* Map & Footer */
+.map-section {
+  margin-bottom: 60px;
+  border: 1px solid #000;
+}
+
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
