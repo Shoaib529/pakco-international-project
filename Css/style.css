@@ -104,7 +104,7 @@ body {
 /****************************/
 
 .section-hero {
-  background: url(../img/upscalemedia-transformed.jpeg);
+  background: url(../img/upscalemedia-transformed.png);
   background-size: cover;
   background-attachment: fixed;
   padding: 4.8rem 0 9.6rem 0;
@@ -114,6 +114,12 @@ body {
   width: 100%;
   border-radius: 100px;
 }
+.heading-wellcome {
+  font-size: 3rem;
+  line-height: 1.05;
+  margin-top: -1rem;
+  color: #a5090f;
+}
 
 .hero {
   max-width: 130rem;
@@ -121,9 +127,15 @@ body {
   display: grid;
   margin: 0 auto;
   padding: 0 3.2rem;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 15rem;
   padding: 0 3.2rem;
+}
+.qoute-line {
+  font-size: 2rem;
+  color: azure;
+  padding-bottom: 2rem;
+  margin-top: -3rem;
 }
 
 .heading-primary,
@@ -165,7 +177,7 @@ body {
 .btn:link,
 .btn:visited {
   display: inline-block;
-  background-color: #e67e22;
+  background-color: #e67e;
   text-decoration: none;
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
@@ -274,12 +286,6 @@ body {
 /****************************/
 /* ABOUT SECTION */
 /****************************/
-.heading-about {
-  font-size: 3rem;
-  line-height: 1.05;
-  margin-top: 3rem;
-  color: #a5090f;
-}
 
 .About-description {
   font-size: 20px;
