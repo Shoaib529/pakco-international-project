@@ -257,46 +257,33 @@ body {
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
-}
-
-.grid--3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.grid--4-cols {
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.grid--5-cols {
-  grid-template-columns: repeat(5, 1fr);
+  margin-top: 3rem;
 }
 
 /****************************/
 /* ABOUT SECTION */
 /****************************/
 .heading-about {
-  font-size: 5.2rem;
+  font-size: 5rem;
   line-height: 1.05;
   margin-bottom: 3.2rem;
-  margin-top: 3rem;
 }
 
 .About-description {
   font-size: 20px;
   word-spacing: 2px;
-  text-align: center;
+  text-align: justify;
   line-height: 25px;
-  margin-bottom: 9.6rem;
+  margin-bottom: 3.6rem;
 }
 
 .about-img {
   width: 100%;
-  margin-top: 10rem;
   border-radius: 10%;
+  margin-top: 6rem;
 }
 .big-peoples {
   width: 100%;
-  margin-top: 10rem;
   border-radius: 10%;
 }
 
@@ -473,4 +460,42 @@ body {
 
 strong {
   font-weight: 500;
+}
+
+.footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+}
+.footer h1 {
+  color: #ddd;
+  font-family: "Georgia", serif;
+  font-size: 6rem;
+  padding-bottom: 2rem;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-size: 2rem;
+  color: #ddd;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.copyright-text {
+  color: aliceblue;
+  padding-top: 2rem;
+  font-size: 12px;
+}
+
+.icons {
+  margin-top: 10px;
+}
+.icons a {
+  margin: 0 12px;
+  font-size: 50px;
 }

@@ -180,7 +180,7 @@ body {
   background-color: #e67e;
   text-decoration: none;
   font-size: 2rem;
-  padding: 1.6rem 3.2rem;
+  padding: 1.6rem 2.2rem;
   border-radius: 9px;
   margin-right: 1.6rem;
 }
@@ -203,7 +203,6 @@ body {
 
 .btn--outline:link,
 .btn--outline:hover {
-  background-color: #fdf2e9;
   color: #555;
 
   box-shadow: inset 0 0 0 3px #fff;
@@ -540,8 +539,8 @@ button:hover {
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
-  padding: 1.6rem 3.2rem;
-  border-radius: 9px;
+  padding: 1.6rem 2.2rem;
+  border-radius: 50px;
   border: none;
   cursor: pointer;
   font-family: inherit;
