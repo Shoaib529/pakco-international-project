@@ -125,6 +125,13 @@ body {
   gap: 9.6rem;
   padding: 0 3.2rem;
 }
+.b-p-info {
+  font-size: 20px;
+  word-spacing: 2px;
+  text-align: justify;
+  line-height: 4rem;
+  margin-bottom: 3.6rem;
+}
 
 .heading-primary,
 .heading-secondary,

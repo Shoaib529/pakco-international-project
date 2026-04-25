@@ -3,42 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us - PAKCO INTERNATIONAL</title>
-    <link rel="stylesheet" href="stylesheet.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    <meta
+      name="description"
+      content="Pakco International is for Import, production and distribution of natural sausage casings"
     />
+
+    <link rel="icon" href="apple-touch-favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-favicon.png" />
+    <link rel="manifest" href="../manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="../Css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script defer src="../js/script.js"></script>
+
+    <title>Contect us &mdash; PAKCO International</title>
   </head>
   <body>
-    <div class="page-title-section">
-      <div class="container">
-        <h1>Contact Us</h1>
-        <div class="brand-name">PAKCO INTERNATIONAL</div>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Pakco logo" src="pakco logo.png" />
+      </a>
+      <div class="company-moto-name">
+        <h1 class="company-name">PAKCO INTERNATIONAL</h1>
+        <p class="company-moto">The right choice of Quality</p>
+        <img class="logos-headers" src="Untitled_design-removebg-preview.png" />
       </div>
-    </div>
 
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="../index.html">HOME</a></li>
+          <li><a class="main-nav-link" href="../about us/index.html">ABOUT US</a></li>
+          <li>
+            <a class="main-nav-link" href="../product/index.html">PRODUCT</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="../gallery/index.html">GALLERY</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="../contect us/index.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+<section class="page-title-section">
+<div class="container">
+  <h1>Contect US</h1>
+  <div class="brand-name">PAKCO International</div>
+</div>
+
+</section>
     <main class="container">
       <div class="contact-grid">
         <div class="contact-form-side">
-          <form>
+          <form action="https://api.web3forms.com/submit" method="POST">
             <input
               type="hidden"
               name="access_key"
-              value="YOUR_ACCESS_KEY_HERE"
+              value="d19879c3-7712-481c-afc2-4c41a7ee0a96"
             />
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <input type="text" placeholder="Subject" />
-            <textarea rows="6" placeholder="Your Message"></textarea>
-            <button type="submit">SEND MESSAGE</button>
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your message"
+              required
+            ></textarea>
+            <button type="submit">Submit</button>
           </form>
         </div>
 
         <div class="contact-details-side">
           <div class="detail-box">
             <h3>Address</h3>
-            <p>Multan, Punjab, Pakistan</p>
+            <p>2374 Cinema Jillani Road, behind Dream Land, Mohalla Muhammadi, Multan, 60000, Pakistan</p>
           </div>
           <div class="detail-box">
             <h3>Phone</h3>
@@ -53,18 +119,35 @@
 
       <div class="map-section">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3370.528394467554!2d74.5298!3d32.4945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDI5JzQwLjIiTiA3NMKwMzEnNDcuMyJF!5e0!3m2!1sen!2spk!4v1640000000000"
-          width="100%"
-          height="400"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4100.63809289111!2d71.47224738515507!3d30.202499792384042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b33d06b3f63f1%3A0x9423fa324c2539a3!2sPAKCO%20INTERNATIONAL!5e0!3m2!1sen!2s!4v1777108213524!5m2!1sen!2s"
+          width="600"
+          height="450"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
-        ></iframe>
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
       </div>
     </main>
-
-    <footer class="site-footer">
-      <p>© 2026 PAKCO INTERNATIONAL</p>
-    </footer>
   </body>
 </html>
+   <section class="floating-whatsapp">
+        <a href="https://wa.me/923001700731"" target="_blank" class="whatsapp-float">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+      </a>
+      </section>
+       <footer class="footer" id="contact">
+        
+        <div class="icons">
+            <a href="https://www.facebook.com/share/1Fk5ZHYQh5/"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://wa.me/923001700731"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/pakco-international-4000b1309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+         <p>
+            EU VETERINARY No : AQD-119-PAKCO
+        </p>
+
+        <h4 class="copyright-text">Copyright © 2028 PAKCO International. All Rights Reserved.</h4>
+    </div>
+    </footer>

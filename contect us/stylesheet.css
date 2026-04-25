@@ -5,8 +5,102 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
 body {
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: "Rubik", serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.company-moto-name {
+  margin-right: 35rem;
+}
+
+.logo {
+  height: 9rem;
+}
+.logos-headers {
+  width: 15rem;
+}
+
+/****************************/
+/* NAVIGATION */
+/****************************/
+
+.main-nav-list {
+  list-style: none;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #a80d13;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #767676;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #aaa;
+}
+
+/****************************/
+/* MOBLIE */
+/****************************/
+.btn-mobile-nav {
+  border: none;
+  background-color: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+body {
   background-color: #ffffff;
   color: #000000;
 }
@@ -115,6 +209,8 @@ body {
 .map-section {
   margin-bottom: 60px;
   border: 1px solid #000;
+  width: 100%;
+  height: 100%;
 }
 
 .site-footer {
@@ -122,6 +218,103 @@ body {
   color: #fff;
   text-align: center;
   padding: 30px 0;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.whatsapp-float img {
+  width: 40px;
+  height: 40px;
+}
+
+/**************************/
+/* FOOTER */
+/**************************/
+
+.icons {
+  margin-top: 10px;
+}
+.icons a {
+  margin: 0 12px;
+  font-size: 50px;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22; */
+  /* outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
+.logos {
+  width: 14rem;
+}
+
+/* HELPER/SETTINGS CLASSES */
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #111;
+  text-align: center;
+  padding: 20px;
+}
+.footer h1 {
+  color: #ddd;
+  font-family: "Georgia", serif;
+  font-size: 6rem;
+  padding-bottom: 2rem;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-size: 2rem;
+  color: #ddd;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+.copyright-text {
+  color: aliceblue;
+  padding-top: 2rem;
+  font-size: 12px;
+}
+
+.icons {
+  margin-top: 10px;
+}
+.icons a {
+  margin: 0 12px;
+  font-size: 50px;
 }
 
 /* Mobile Responsiveness */
