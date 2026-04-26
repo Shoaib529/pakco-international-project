@@ -239,6 +239,7 @@
   }
 
   .about-img {
+    display: none;
     margin-top: 16rem;
     border-radius: 15px; /* Fixed px usually looks better on tiny screens */
     width: 90%; /* Give it a little breathing room */
@@ -259,6 +260,11 @@
     width: 100%;
     border-radius: 10%;
   }
+
+  .about-img-box-main {
+    display: none;
+  }
+
   .grid {
     row-gap: 4.8rem;
   }
