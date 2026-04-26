@@ -230,6 +230,35 @@
 /**************************/
 
 @media (max-width: 34em) {
+  .About-description {
+    font-size: 16px;
+    line-height: 22px;
+    word-spacing: 1px;
+    margin-bottom: 3rem; /* Smallest gap for mobile */
+    text-align: left; /* Often easier to read on small screens than center */
+  }
+
+  .about-img {
+    margin-top: 16rem;
+    border-radius: 15px; /* Fixed px usually looks better on tiny screens */
+    width: 90%; /* Give it a little breathing room */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .b-p-info {
+    font-size: 20px;
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 4rem;
+    margin-bottom: 3.6rem;
+  }
+  .big-peoples {
+    margin-top: 12rem;
+    width: 100%;
+    border-radius: 10%;
+  }
   .grid {
     row-gap: 4.8rem;
   }
@@ -264,7 +293,7 @@
     padding: 0 3.2rem;
   }
   .about-img-box {
-    margin-top: -22rem;
+    margin-top: -18rem;
     margin-bottom: 2rem;
   }
 
@@ -290,10 +319,6 @@
 
   .logos img {
     height: 1.2rem;
-  }
-
-  .certificates {
-    display: block;
   }
 
   .step-img-box:nth-child(2) {
